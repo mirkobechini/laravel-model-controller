@@ -11,18 +11,17 @@
     @extends("layouts.master")
 
     @section("content")
-    <div class="container">
+    <div class="container py-5">
+        <div class="row row-cols-3 g-4">
 
-        movie list
-        <ul>
             @foreach($movies as $movie)
-            <li>
-                {{$movie["title"]}}
-            </li>    
+            <div class="col">
+                <x-movie-card :movie="$movie" />
+            </div>
             @endforeach
 
-        </ul>
-        <x-movie-card/>
+
+        </div>
     </div>
     @endsection
 
