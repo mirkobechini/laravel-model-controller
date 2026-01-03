@@ -4,9 +4,9 @@ Oggi facciamo la nostra prima vera interazione con il database utilizzando Eloqu
 
 ## Svolgimento
 1 - [X] Create un nuovo progetto Laravel
-2 - [] tramite phpMyAdmin o MySQL Workbench create un nuovo database laravel_model_controller
-3 - [] Importate nel vostro database la tabella movies in allegato
-4 - [] inserite le vostre credenziali per il database nel file .env
+2 - [X] tramite phpMyAdmin o MySQL Workbench create un nuovo database laravel_model_controller
+3 - [X] Importate nel vostro database la tabella movies in allegato
+4 - [X] inserite le vostre credenziali per il database nel file .env
 5 - [] Create un model Movie.php col comando php artisan make:model Movie
 6 - [] Create un controller che gestirà la rotta / col comando
 php artisan make:controller Guest/PageController
