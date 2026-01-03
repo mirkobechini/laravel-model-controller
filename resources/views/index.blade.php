@@ -20,7 +20,9 @@
                 {{$movie["title"]}}
             </li>    
             @endforeach
+
         </ul>
+        <x-movie-card/>
     </div>
     @endsection
 
